@@ -4,8 +4,8 @@ namespace Imagezoom;
 
 public partial class ZoomableTextureRect : TextureRect
 {
-	private static StringName ZoomInAction = "zoom in";
-	private static StringName ZoomOutAction = "zoom out";
+	private readonly static StringName ZoomInAction = "zoom in";
+	private readonly static StringName ZoomOutAction = "zoom out";
 
 	[Export] private float _zoomSpeed = 0.1f;
 	
