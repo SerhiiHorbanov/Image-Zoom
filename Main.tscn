@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://dhaxvhsi7h3s2"]
+
+[ext_resource type="Texture2D" uid="uid://c5au5saasy6fc" path="res://icon.svg" id="1_glv2v"]
+[ext_resource type="Script" uid="uid://be3b6ggupj3cv" path="res://ZoomableTextureRect.cs" id="2_uu6xs"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Canvas" type="CanvasLayer" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="Canvas"]
+offset_top = 448.0
+offset_right = 200.0
+offset_bottom = 648.0
+texture = ExtResource("1_glv2v")
+script = ExtResource("2_uu6xs")
