@@ -7,9 +7,20 @@
 
 [node name="Canvas" type="CanvasLayer" parent="."]
 
-[node name="TextureRect" type="TextureRect" parent="Canvas"]
-offset_top = 448.0
+[node name="Control" type="Control" parent="Canvas"]
+layout_mode = 3
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+grow_vertical = 0
+
+[node name="TextureRect" type="TextureRect" parent="Canvas/Control"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -200.0
 offset_right = 200.0
-offset_bottom = 648.0
+grow_vertical = 0
 texture = ExtResource("1_glv2v")
 script = ExtResource("2_uu6xs")
